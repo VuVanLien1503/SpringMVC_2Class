@@ -42,6 +42,8 @@
         <a href="/employee/display?page=${totalPages+1}"><i>[${totalPages+1}]</i></a>
     </div>
 </div>
-
+<div style="margin-left: 200px;margin-top: 50px">
+    <a href="/room/display">ListRoom</a>
+</div>
 </body>
 </html>

@@ -33,17 +33,17 @@ public class RoomService implements ICrud<Room>, ISearch<Room> {
 
     @Override
     public void save(Room room) {
-
+        listRoom.add(room);
     }
 
     @Override
     public void update(int index, Room room) {
-
+        listRoom.set(index, room);
     }
 
     @Override
     public void delete(Room room) {
-
+        listRoom.remove(room);
     }
 
     @Override

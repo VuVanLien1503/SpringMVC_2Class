@@ -22,8 +22,9 @@ import java.util.List;
 public class EmployeeController {
     static RoomService roomService=new RoomService();
     static EmployeeService employeeService=new EmployeeService(roomService);
-
+RoomController controller;
     public EmployeeController() {
+        controller=new RoomController();
     }
 
     @GetMapping("/display")
